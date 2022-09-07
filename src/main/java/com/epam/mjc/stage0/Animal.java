@@ -6,9 +6,9 @@ public class Animal {
     private boolean hasFur;
 
     public Animal(String color, int numberOfPaws, boolean hasFur) {
-        this.color = "someColor";
-        this.numberOfPaws = 4;
-        this.hasFur = true;
+        this.color = color;
+        this.numberOfPaws = numberOfPaws;
+        this.hasFur = hasFur;
     }
 
     public String getDescription() {
