@@ -6,13 +6,13 @@ public class Animal {
     private boolean hasFur;
 
     public Animal(String brown, int i, boolean b) {
-        color = "brown";
+        color = "someColor";
         numberOfPaws = 4;
         hasFur = true;
     }
 
     public String getDescription() {
-        if (hasFur) {
+        if (this.hasFur) {
             return "This animal is mostly " + this.color + "." + " It has " + this.numberOfPaws + " paws and a fur.";
         } else {
             return "This animal is mostly " + this.color + "." + " It has " + this.numberOfPaws + " paws and no fur.";
