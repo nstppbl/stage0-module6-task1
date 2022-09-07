@@ -5,10 +5,8 @@ public class Animal {
     private int numberOfPaws;
     private boolean hasFur;
 
-    public Animal(String brown, int i, boolean b) {
-        color = "someColor";
-        numberOfPaws = 4;
-        hasFur = true;
+    public Animal(String color, int numberOfPaws, boolean hasFur) {
+
     }
 
     public String getDescription() {
