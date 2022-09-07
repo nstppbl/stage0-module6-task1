@@ -12,10 +12,10 @@ public class Animal {
     }
 
     public String getDescription() {
-        if (hasFur == true) {
-            return "This animal is mostly " + this.color + "." + "It has " + this.numberOfPaws + " paws and a fur";
+        if (hasFur) {
+            return "This animal is mostly " + this.color + "." + " It has " + this.numberOfPaws + " paws and a fur.";
         } else {
-            return "This animal is mostly " + this.color + "." + "It has " + this.numberOfPaws + " paws and no fur";
+            return "This animal is mostly " + this.color + "." + " It has " + this.numberOfPaws + " paws and no fur.";
         }
     }
 }
